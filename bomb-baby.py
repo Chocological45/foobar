@@ -1,6 +1,4 @@
 """
-Bomb, Baby!
-===========
 You're so close to destroying the LAMBCHOP doomsday device you can taste it! But in order to do so, you need to deploy
 special self-replicating bombs designed for you by the brightest scientists on Bunny Planet. There are two types:
 Mach bombs (M) and Facula bombs (F). The bombs, once released into the LAMBCHOP's inner workings, will automatically
@@ -22,22 +20,6 @@ Return the fewest number of generations (as a string) that need to pass before y
 necessary to destroy the LAMBCHOP, or the string "impossible" if this can't be done! M and F will be string
 representations of positive integers no larger than 10^50. For example, if M = "2" and F = "1", one
 generation would need to pass, so the answer would be "1". However, if M = "2" and F = "4", it would not be possible.
-Languages
-=========
-To provide a Python solution, edit solution.py
-To provide a Java solution, edit solution.java
-Test cases
-==========
-Inputs:
-   (string) M = "2"
-   (string) F = "1"
-Output:
-   (string) "1"
-Inputs:
-   (string) M = "4"
-   (string) F = "7"
-Output:
-   (string) "4"
 """
 
 import time
